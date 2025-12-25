@@ -1,18 +1,3 @@
-# Ejemplo: funciones y listas
-def saludar(nombre):
-    return f"Hola, {nombre}!"
-
-nombres = ["Ana", "Luis", "María"]
-for n in nombres:
-    print(saludar(n))
-
-# Suma de los pares en una lista
-nums = [1,2,3,4,5,6]
-suma_pares = sum(x for x in nums if x % 2 == 0)
-print(suma_pares)
-
-#Hello world
-print("Hola mundo")
 
 """
 Task
@@ -31,7 +16,7 @@ Constraints
 Output Format
 
 Print Weird if the number is weird. Otherwise, print Not Weird. 
-"""
+""" 
 if __name__ == '__main__':
     n = int(input().strip())
     
@@ -44,3 +29,15 @@ if __name__ == '__main__':
             print("Weird")
         else:
             print("Not Weird")
+
+#Starting point of program
+           
+print("Hello, World!")
+# I can use: code "first.py" to run this file in terminal
+# and i can use: python "first.py"  to run this file in terminal
+
+name=input("Enter your name: ")
+print(name)
+#print(), input(), are functions used to output and input data in python
+
+
