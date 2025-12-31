@@ -35,9 +35,18 @@ if __name__ == '__main__':
 print("Hello, World!")
 # I can use: code "first.py" to run this file in terminal
 # and i can use: python "first.py"  to run this file in terminal
-
-name=input("Enter your name: ")
-print(name)
 #print(), input(), are functions used to output and input data in python
+
+#Ask for user their name 
+name=input("Enter your name: ")
+#Say hello to the user
+print("Hello " + name)
+print("Hello", name)
+"""
+C++ code for the same program
+cout<< "Enter ur name" << endl;
+cin>>name;
+
+"""
 
 
