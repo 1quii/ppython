@@ -1,34 +1,4 @@
 
-"""
-Task
-Given an integer, , perform the following conditional actions:
-
-If  is odd, print Weird
-If  is even and in the inclusive range of  to , print Not Weird
-If  is even and in the inclusive range of  to , print Weird
-If  is even and greater than , print Not Weird
-Input Format
-
-A single line containing a positive integer, .
-
-Constraints
-
-Output Format
-
-Print Weird if the number is weird. Otherwise, print Not Weird. 
-""" 
-if __name__ == '__main__':
-    n = int(input().strip())
-    
-    if n % 2 == 1:
-        print("Weird")
-    else:
-        if 2 <= n <= 5:
-            print("Not Weird")
-        elif 6 <= n <= 20:
-            print("Weird")
-        else:
-            print("Not Weird")
 
 #Starting point of program
            
@@ -42,11 +12,31 @@ name=input("Enter your name: ")
 #Say hello to the user
 print("Hello " + name)
 print("Hello", name)
-"""
-C++ code for the same program
-cout<< "Enter ur name" << endl;
-cin>>name;
+print("hello,", end=" ")
+print(name)
+print("Hello,", name,sep="***")
+print(f"Hello, {name}")
 
 """
+#strip() function is used to remove any extra spaces before and after the input
+age=int(input("Enter your age: ").strip())
 
+name=name.strip()
+#remove whitespaces from str
+
+name= name.capitalize()
+#capitalize the first letter of the string
+
+name=name.title()
+#capitalize the first letter of each word in the string
+"""
+#Despues de lo aprendido:
+name=input("Enter name ").strip().title()
+print("Hello,", name)
+
+#split user name
+first, last = name.split(" ")
+print("Hello,", first, last)
+print("First name:", first)
+print("Last name:", last)
 
