@@ -13,8 +13,12 @@ hello()
 name=input("Enter your name: ").strip().title()
 hello(name) 
 """
+def hello(to="Everyone"):
+    print("Hello,", to)
+
 def main():
     nombre=input("Whats your name? ").strip().title()
     hello(nombre)
 
-def hello
+
+main ()
